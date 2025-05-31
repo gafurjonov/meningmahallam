@@ -43,7 +43,6 @@
     <section class="contact-section">
         <div class="container">
             <div class="contact-info">
-                <h3>Aloqa ma'lumotlari</h3>
                 <div class="info-grid">
                     <div class="info-card">
                         <i class="fas fa-map-marker-alt"></i>
@@ -53,14 +52,12 @@
                     <div class="info-card">
                         <i class="fas fa-phone-alt"></i>
                         <h4>Telefon</h4>
-                        <p>+998 71 256-47-86 (qabulxona)</p>
-                        <p>+998 71 958-52-64 (ishonch telefoni)</p>
+                        <p>+998 91 200-54-74</p>
                     </div>
                     <div class="info-card">
                         <i class="fas fa-envelope"></i>
                         <h4>Email</h4>
-                        <p>info@obodlik.uz</p>
-                        <p>murojaat@obodlik.uz</p>
+                        <p>khabibullokh.me@gmail.com</p>
                     </div>
                     <div class="info-card">
                         <i class="fas fa-clock"></i>
@@ -73,7 +70,6 @@
             </div>
 
             <div class="contact-map">
-                <h3>Bizning joylashuv</h3>
                 <div class="map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12013.042981376567!2d71.211833!3d40.425972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suz!2suz!4v1716462000000!5m2!1suz!2suz"
@@ -86,7 +82,7 @@
                 <h3>Onlayn murojaat</h3>
                 <p>Mahalla fuqarolar yig'iniga murojaat qilish uchun quyidagi shaklni to'ldiring. Sizning murojaatingiz
                     tez orada ko'rib chiqiladi.</p>
-                <form action="#" method="post">
+                <form action="https://formsubmit.co/yourgmail@gmail.com" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="name">F.I.Sh. <span class="required">*</span></label>
                         <input type="text" id="name" name="name" required>
@@ -118,6 +114,8 @@
                         <input type="file" id="file" name="file">
                         <small>Ruxsat etilgan formatlar: PDF, JPG, PNG (max: 5MB)</small>
                     </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://meningmahallam.vercel.app/contact.html">
                     <div class="form-group">
                         <button type="submit" class="btn">Yuborish</button>
                     </div>
